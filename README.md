@@ -37,7 +37,7 @@ Add the following view
     </com.ramkt.swipeview.SwipeView.SwipeView>
 ```
 ### Step 2
-Make sure to set swipe:view_front_id, if you don't want to add any front view then set swipe:left_offset = 0dp
+Make sure to set swipe:view_front_id
 ```java
 swipe:view_front_id="@+id/row"
 ```
