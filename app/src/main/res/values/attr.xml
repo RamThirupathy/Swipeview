@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeView">
+        <attr name="left_offset" format="dimension"/>
+        <attr name="anim_duration" format="integer" />
+        <attr name="view_offset_id" format="reference" />
+        <attr name="view_front_id" format="reference" />
+    </declare-styleable>
+</resources>

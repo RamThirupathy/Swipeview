@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <com.ramkt.swipeview.SwipeView.SwipeView
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        swipe:anim_duration="250"
+        swipe:left_offset="@dimen/imw"
+        swipe:view_front_id="@+id/row"
+        swipe:view_offset_id="@+id/program_4">
+
+        <include layout="@layout/program_list"></include>
+
+        <include layout="@layout/swipe_view"></include>
+    </com.ramkt.swipeview.SwipeView.SwipeView>

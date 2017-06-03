@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_1"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#dd3a4e">
+
+    <RelativeLayout
+        android:id="@+id/swipe_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/swipe_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/swipe_4"
+                android:layout_width="13dp"
+                android:layout_height="17dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="1dp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/swipe_5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toEndOf="@+id/swipe_3"
+            android:layout_toRightOf="@+id/swipe_3"
+            android:gravity="center"
+            android:text="Delete item"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/swipe_undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/swipe_5"
+
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="23dp"
+            android:background="#99D6A1A1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:text="Undo"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
